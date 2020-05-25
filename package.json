@@ -43,7 +43,7 @@
     "lint": "eslint .",
     "format": "prettier-eslint --write \"**/*.js\" \"!.cache/**\" \"!node_modules/**\" \"!public/**\"",
     "format-prettier": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "npm run clean-cache & gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "clean-cache": "gatsby clean",
